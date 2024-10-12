@@ -4,7 +4,8 @@
  * @brief Calcula la raíz cuadrada mediante el método de Newton-Raphson.
  * @param value Valor del que se calcula la raíz cuadrada.
  */
-inline float sqrt(float value) {
+inline float 
+sqrt(float value) {
     // Si el valor es negativo, se retorna 0 ya que la raíz cuadrada de un número negativo no está definida en los números reales.
     if (value < 0) {
         return 0;
